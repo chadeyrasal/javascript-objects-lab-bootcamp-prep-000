@@ -1,11 +1,11 @@
 var recipes = {prop: '1'}
 
-var keyName
-var value
+var firstKey
+var firstValue
 
-function updateObjectWithKeyAndValue(recipes, key, value) {
-  keyName = 'prop2'
-  value = 2
-  recipes.keyName = value
+function updateObjectWithKeyAndValue(recipes, firstKey, firstValue) {
+  firstKey = 'prop2'
+  firstValue = 2
+  recipes.firstKey = firstValue
   return recipes
 }
