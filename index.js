@@ -4,8 +4,8 @@ var key
 var value
 
 function updateObjectWithKeyAndValue(recipes, key, value) {
-  key = 'prop2'
+  keyName = 'prop2'
   value = 2
-  recipes.key = value
+  recipes.keyName = value
   return recipes
 }
