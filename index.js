@@ -4,6 +4,6 @@ var prop2 = 'prop2'
 var value = '2'
 
 function updateObjectWithKeyAndValue(recipes, prop2, value) {
-  recipes.key1 = value1
+  recipes.prop2 = value
   return recipes
 }
