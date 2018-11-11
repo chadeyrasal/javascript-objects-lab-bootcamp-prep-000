@@ -14,6 +14,7 @@ var recipes = {prop: '1'}
 
 function deleteFromObjectByKey(recipes, prop) {
   Object.assign(recipes, {})
+  return Object
 }
 
 var recipes = {prop: '1'}
